@@ -1,0 +1,7 @@
+hive:
+    baseurl: jdbc:hive2://{}/;ssl=true;sslTrustStore=./store.jks;trustStorePassword=123456;transportMode=http;httpPath=gateway/default/hive
+    prodexpl: ez02svc1.muc:50005
+    intexpl: ez02svc1.muc:50205
+keystore: http://cawww2.muc/big-data/store.jks
+jar: hive-jdbc-0.14.0-standalone.jar
+classname: org.apache.hive.jdbc.HiveDriver
